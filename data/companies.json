@@ -1,0 +1,47 @@
+[
+  {
+    "id": "comp-001",
+    "name": "深圳跨境电商有限公司",
+    "country": "CN",
+    "industry": "跨境电商",
+    "currentRiskScore": 66,
+    "previousRiskScore": 65,
+    "lastCheckedAt": "2026-01-14T10:30:45.738Z"
+  },
+  {
+    "id": "comp-002",
+    "name": "广州国际贸易集团",
+    "country": "CN",
+    "industry": "国际贸易",
+    "currentRiskScore": 72,
+    "previousRiskScore": 72,
+    "lastCheckedAt": "2026-01-14T10:30:45.839Z"
+  },
+  {
+    "id": "comp-003",
+    "name": "上海进出口公司",
+    "country": "CN",
+    "industry": "进出口",
+    "currentRiskScore": 60,
+    "previousRiskScore": 58,
+    "lastCheckedAt": "2026-01-14T10:30:45.939Z"
+  },
+  {
+    "id": "comp-004",
+    "name": "杭州电子商务科技",
+    "country": "CN",
+    "industry": "电子商务",
+    "currentRiskScore": 99,
+    "previousRiskScore": 80,
+    "lastCheckedAt": "2026-01-14T10:30:46.041Z"
+  },
+  {
+    "id": "comp-005",
+    "name": "北京国际物流",
+    "country": "CN",
+    "industry": "物流",
+    "currentRiskScore": 49,
+    "previousRiskScore": 45,
+    "lastCheckedAt": "2026-01-14T10:30:46.408Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sub-001",
+    "userId": "user-001",
+    "companyId": "comp-001",
+    "email": "manager1@example.com",
+    "alertThreshold": 10,
+    "isActive": true
+  },
+  {
+    "id": "sub-002",
+    "userId": "user-002",
+    "companyId": "comp-002",
+    "email": "manager2@example.com",
+    "alertThreshold": 10,
+    "isActive": true
+  },
+  {
+    "id": "sub-003",
+    "userId": "user-003",
+    "companyId": "comp-003",
+    "email": "manager3@example.com",
+    "alertThreshold": 10,
+    "isActive": true
+  },
+  {
+    "id": "sub-004",
+    "userId": "user-001",
+    "companyId": "comp-004",
+    "email": "manager1@example.com",
+    "alertThreshold": 10,
+    "isActive": true
+  },
+  {
+    "id": "sub-005",
+    "userId": "user-004",
+    "companyId": "comp-005",
+    "email": "manager4@example.com",
+    "alertThreshold": 10,
+    "isActive": true
+  }
+]
