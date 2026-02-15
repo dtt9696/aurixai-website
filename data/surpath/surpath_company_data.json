@@ -1,0 +1,79 @@
+{
+  "company_name": "Surpath Inc.",
+  "chinese_name": "驿玛科技",
+  "type": "非上市企业",
+  "founded": 2019,
+  "headquarters": {
+    "us": "Tustin, CA 92780 (17822 17th St, Ste 212)",
+    "china": "上海闵行"
+  },
+  "website": "www.surpathlogistics.com",
+  "industry": "跨境电商物流 / 供应链科技",
+  "business_description": "AI及云端跨境电商物流与供应链解决方案提供商",
+  "employee_count": "11-50 (LinkedIn) / 51-200 (Crunchbase)",
+  "self_reported_revenue": "$25M-$100M",
+  "registration": {
+    "state": "California / Delaware",
+    "filed_date": "2019-07-08",
+    "fmcsa_dot": "3650620",
+    "entity_type": "Stock Corporation"
+  },
+  "management": {
+    "ceo": "马锦冬 (ex-Amazon)",
+    "president": "马飞",
+    "cpo": "王晴"
+  },
+  "funding": {
+    "total_raised": "$15.65M",
+    "current_stage": "Series A",
+    "rounds": [
+      {"round": "Angel + Pre-A", "date": "2021-10", "amount": "1亿人民币", "investors": ["经纬中国", "指数资本(FA)"]},
+      {"round": "Pre-A+", "date": "2022-06", "amount": "数千万元", "investors": ["北极光创投", "指数资本(FA)"]},
+      {"round": "Series A", "date": "2023-02", "amount": "数千万美元", "investors": ["eWTP Arabia Capital", "指数资本(FA)"]}
+    ],
+    "last_funding_date": "2023-02",
+    "funding_gap_months": 36,
+    "risk_signal": "超过3年未获新一轮融资"
+  },
+  "employee_reviews": {
+    "indeed": {
+      "overall_rating": 1.0,
+      "total_reviews": 1,
+      "detailed_ratings": {
+        "work_life_balance": 1.0,
+        "pay_and_benefits": 1.0,
+        "job_security": 3.0,
+        "management": 1.0,
+        "culture": 1.0
+      },
+      "sample_review": "The working hours are long and most time is wasted on meaningless discussions. Management is completely a mess. The plans keep changing all the time."
+    },
+    "glassdoor": {
+      "overall_rating": 2.0,
+      "sample_review": "Great co-worker and nice start up environment. Cons: Lack of directions and changes inside the company happen very quickly."
+    }
+  },
+  "legal_issues": [
+    {
+      "case": "Shenzhen Gangshi Technology Co., LTD v. Surpath, Inc. et al",
+      "case_number": "8:2023cv02080",
+      "court": "U.S. District Court for the Central District of California",
+      "filed_date": "2023-11-04",
+      "nature": "Personal Property: Other - Damaged Goods While Being Transported (49 U.S.C. § 81)",
+      "defendants": ["Surpath, Inc.", "Value Logistics, Inc.", "KNN Logistics, Inc.", "Arturo Giovanni Moreno"],
+      "status": "Active (last docket entry 2024-01-02)"
+    }
+  ],
+  "competitors": [
+    {"name": "Hurricane Commerce", "founded": 2016, "hq": "英国", "stage": "Series A", "focus": "跨境贸易数据合规"},
+    {"name": "eFreight (易仓)", "founded": 2013, "hq": "北京", "stage": "Series B", "focus": "海关清关解决方案"},
+    {"name": "CNE", "founded": 2003, "hq": "上海", "stage": "Series A", "focus": "跨境物流方案"},
+    {"name": "Kje (快捷快递)", "founded": 2013, "hq": "深圳", "stage": "Series B", "focus": "电商平台物流"},
+    {"name": "Globavend", "founded": 2014, "hq": "香港", "stage": "Public", "focus": "在线履约平台"},
+    {"name": "GoLucky", "founded": 2022, "hq": "杭州", "stage": "Seed", "focus": "跨境物流"},
+    {"name": "Moduslink", "founded": 1968, "hq": "美国", "stage": "Public", "focus": "供应链服务"}
+  ],
+  "supply_chain_data": "详见 importyeti_surpath.json",
+  "data_sources": ["ImportYeti", "Crunchbase", "Tracxn", "Indeed", "Glassdoor", "LinkedIn", "Justia/PACER", "FMCSA", "CA Secretary of State"],
+  "data_collection_date": "2026-02-15"
+}

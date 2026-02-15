@@ -1,0 +1,4160 @@
+{
+  "LP.LPI.OVRL.XQ": {
+    "description": "LPI综合评分",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.61818181818182
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.49222222222222
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.47333333333333
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.41333333333333
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 2.79375
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 2.67809523809524
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 2.6
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.43666666666667
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.35454545454545
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.21545454545455
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 2.74651162790698
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 2.63297872340426
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.3
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.14761904761905
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 2.95833333333333
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 2.81538461538462
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 2.95833333333333
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 2.81538461538462
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.655
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.5095
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.32391304347826
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.24042553191489
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 2.72
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 2.656875
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 2.835
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 2.7647619047619
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.61851851851852
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.51925925925926
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.38095238095238
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.35
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.42916666666667
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.41542857142857
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.525
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.42589285714286
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 2.86111111111111
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 2.77155172413793
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.69255319148936
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.60491228070175
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.4875
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.515
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.459375
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.41434782608696
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.465
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.43232142857143
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 3.01025641025641
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 2.89372093023256
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 2.692
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 2.66434782608696
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 2.65625
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 2.644
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 2.71304347826087
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 2.69285714285714
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.42083333333333
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.38648648648649
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.65
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.56815533980583
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.37333333333333
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.34863636363636
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.63103448275862
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.54292682926829
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 2.88823529411765
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 2.72954545454545
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.36666666666667
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.46428571428571
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.36666666666667
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.46428571428571
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 2.71194029850746
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 2.62777777777778
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 3.9
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 3.81
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.63421052631579
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.58105263157895
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 3.025
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 2.78083333333333
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.55
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.46
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.60555555555556
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.58171428571429
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.39
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.38818181818182
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 2.82
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 2.68235294117647
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 2.825
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 2.61833333333333
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 2.825
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 2.61833333333333
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.53461538461538
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.44974358974359
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.53461538461538
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.44974358974359
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.53461538461538
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.44974358974359
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 2.77368421052632
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 2.71475
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 3
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 2.86625
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 1.9
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 1.95
+      }
+    ]
+  },
+  "LP.LPI.CUST.XQ": {
+    "description": "海关效率",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.32727272727273
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.35111111111111
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.30666666666667
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.19190476190476
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 2.5375
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 2.43761904761905
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 2.4
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.55
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.10909090909091
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.05181818181818
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 2.53023255813954
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 2.41765957446808
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.11052631578947
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.0052380952381
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 2.725
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 2.64230769230769
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 2.725
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 2.64230769230769
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.455
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.3345
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.12608695652174
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.03489361702128
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 2.50666666666667
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 2.4475
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 2.61
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 2.53952380952381
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.41111111111111
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.33592592592593
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.19047619047619
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.1648275862069
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.24166666666667
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.25514285714286
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.34821428571429
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.25232142857143
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 2.61481481481481
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 2.52637931034483
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.47553191489362
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.40298245614035
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.3625
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.308
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.26875
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.26804347826087
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.2875
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.27517857142857
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 2.80769230769231
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 2.71116279069767
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 2.476
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 2.47
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 2.41875
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 2.406
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 2.48695652173913
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 2.48095238095238
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.19583333333333
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.22540540540541
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.43414634146341
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.36660194174757
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.14
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.14363636363636
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.43103448275862
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.37560975609756
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 2.70588235294118
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 2.48727272727273
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.21111111111111
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.22428571428571
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.21111111111111
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.22428571428571
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 2.5
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 2.42716049382716
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 3.85
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 3.69
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.47105263157895
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.39921052631579
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 2.9375
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 2.66166666666667
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.35
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.59
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.44166666666667
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.41114285714286
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.175
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.17878787878788
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 2.68
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 2.63352941176471
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 2.625
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 2.445
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 2.625
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 2.445
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.31538461538462
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.26538461538462
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.31538461538462
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.26538461538462
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.31538461538462
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.26538461538462
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 2.55263157894737
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 2.48
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 2.8
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 2.673
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 2.1
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 1.73
+      }
+    ]
+  },
+  "LP.LPI.INFR.XQ": {
+    "description": "基础设施质量",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.51818181818182
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.23777777777778
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.29333333333333
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.17285714285714
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 2.71875
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 2.60666666666667
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 2.5
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.29333333333333
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.25454545454545
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.06272727272727
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 2.61162790697674
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 2.47808510638298
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.32105263157895
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.05095238095238
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 2.875
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 2.60923076923077
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 2.875
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 2.60923076923077
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.66
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.482
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.26086956521739
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.1331914893617
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 2.55333333333333
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 2.4375
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 2.675
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 2.55571428571429
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.5962962962963
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.46111111111111
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.19523809523809
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.14241379310345
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.24583333333333
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.16142857142857
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.55892857142857
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.39267857142857
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 2.73703703703704
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 2.58655172413793
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.54042553191489
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.40359649122807
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.3125
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.361
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.265625
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.18217391304348
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.275
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.21410714285714
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 2.92307692307692
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 2.74581395348837
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 2.552
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 2.46695652173913
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 2.49375
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 2.43333333333333
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 2.5695652173913
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 2.49
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.22916666666667
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.12783783783784
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.49268292682927
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.36456310679612
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.22
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.10181818181818
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.43103448275862
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.33926829268293
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 2.87058823529412
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 2.69318181818182
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.16666666666667
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.40071428571429
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.16666666666667
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.40071428571429
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 2.55373134328358
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 2.43592592592593
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 4.1
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 3.9
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.68157894736842
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.56342105263158
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 2.8875
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 2.65916666666667
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.4
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.305
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.66388888888889
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.56285714285714
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.205
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.13181818181818
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 2.69333333333333
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 2.55294117647059
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 2.525
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 2.435
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 2.525
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 2.435
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.38846153846154
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.20282051282051
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.38846153846154
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.20282051282051
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.38846153846154
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.20282051282051
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 2.64736842105263
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 2.535
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 2.92158273381295
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 2.72275
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 1.7
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 1.81
+      }
+    ]
+  },
+  "LP.LPI.ITRN.XQ": {
+    "description": "国际运输便利性",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.63636363636364
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.52388888888889
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.53333333333333
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.51857142857143
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 2.75625
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 2.67857142857143
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 2.64
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.42
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.31818181818182
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.18818181818182
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 2.72093023255814
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 2.61446808510638
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.14736842105263
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.03238095238095
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 2.925
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 2.82615384615385
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 2.925
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 2.82615384615385
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.505
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.382
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.2
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.13893617021277
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 2.72666666666667
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 2.6275
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 2.825
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 2.74761904761905
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.46666666666667
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.41296296296296
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.38095238095238
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.39551724137931
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.5
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.50228571428571
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.32678571428572
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.28017857142857
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 2.84074074074074
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 2.79603448275862
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.68723404255319
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.62578947368421
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.4875
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.551
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.478125
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.42739130434783
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.48
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.44946428571429
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 2.91794871794872
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 2.86720930232558
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 2.664
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 2.69217391304348
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 2.66875
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 2.67933333333333
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 2.6695652173913
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 2.72142857142857
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.4625
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.43810810810811
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.66219512195122
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.5895145631068
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.45333333333333
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.44272727272727
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.63448275862069
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.53536585365854
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 2.81176470588235
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 2.69772727272727
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.37777777777778
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.45214285714286
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.37777777777778
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.45214285714286
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 2.7089552238806
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 2.62938271604938
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 3.5
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 3.445
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.39736842105263
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.39552631578947
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 2.7875
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 2.58583333333333
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.6
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.18
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.39444444444444
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.38057142857143
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.495
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.4969696969697
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 2.71333333333333
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 2.50882352941177
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 2.8
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 2.51666666666667
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 2.8
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 2.51666666666667
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.57692307692308
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.52102564102564
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.57692307692308
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.52102564102564
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.57692307692308
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.52102564102564
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 2.76578947368421
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 2.72575
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 2.92517985611511
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 2.8299375
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 1.8
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 2.1
+      }
+    ]
+  },
+  "LP.LPI.LOGS.XQ": {
+    "description": "物流服务质量",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.63636363636364
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.475
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.52
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.31666666666667
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 2.75625
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 2.56666666666667
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 2.52
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.26
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.45454545454545
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.14090909090909
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 2.74186046511628
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 2.56127659574468
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.32631578947368
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.13190476190476
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 2.95
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 2.77307692307692
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 2.95
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 2.77307692307692
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.745
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.491
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.38043478260869
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.20893617021277
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 2.72666666666667
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 2.58
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 2.855
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 2.69809523809524
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.70740740740741
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.49148148148148
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.4047619047619
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.30931034482759
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.49166666666667
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.36314285714286
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.58571428571429
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.40678571428572
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 2.8537037037037
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 2.69810344827586
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.70425531914894
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.53789473684211
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.425
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.485
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.521875
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.34739130434783
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.5025
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.37196428571429
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 3.02564102564103
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 2.83232558139535
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 2.688
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 2.59217391304348
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 2.6375
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 2.584
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 2.71739130434783
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 2.62619047619048
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.49583333333333
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.31945945945946
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.65487804878049
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.5004854368932
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.42666666666667
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.32136363636364
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.65862068965517
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.46512195121951
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 2.86470588235294
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 2.64681818181818
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.32222222222222
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.36642857142857
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.32222222222222
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.36642857142857
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 2.70597014925373
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 2.54913580246914
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 4.05
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 3.885
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.73157894736842
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.58105263157895
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 3.0625
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 2.71666666666667
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.6
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.52
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.68333333333333
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.584
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.43
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.32454545454545
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 2.82
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 2.61294117647059
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 2.875
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 2.52166666666667
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 2.875
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 2.52166666666667
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.56923076923077
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.38974358974359
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.56923076923077
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.38974358974359
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.56923076923077
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.38974358974359
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 2.7421052631579
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 2.63525
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 3.02877697841727
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 2.815875
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 2
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 1.92
+      }
+    ]
+  },
+  "LP.LPI.TRAC.XQ": {
+    "description": "货物追踪能力",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.64545454545455
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.53722222222222
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.46666666666667
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.47571428571429
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 2.83125
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 2.71142857142857
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 2.56
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.41
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.4
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.23181818181818
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 2.74883720930233
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 2.66191489361702
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.42105263157895
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.17666666666667
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 3.04166666666667
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 2.82692307692308
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 3.04166666666667
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 2.82692307692308
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.705
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.5435
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.37608695652174
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.27425531914894
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 2.72666666666667
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 2.653125
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 2.87
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 2.75714285714286
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.69259259259259
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.55888888888889
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.35238095238095
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.38
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.36666666666667
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.448
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.61964285714286
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.47321428571429
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 2.93518518518519
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 2.77620689655172
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.71808510638298
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.63184210526316
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.475
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.555
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.4125
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.46652173913043
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.425
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.48232142857143
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 3.11282051282051
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 2.89395348837209
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 2.74
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 2.68173913043478
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 2.725
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 2.65466666666667
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 2.76086956521739
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 2.7147619047619
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.425
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.43
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.6719512195122
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.59601941747573
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.3
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.39227272727273
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.63448275862069
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.60121951219512
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 2.92941176470588
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 2.72
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.32222222222222
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.44357142857143
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.32222222222222
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.44357142857143
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 2.75522388059702
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 2.65135802469136
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 4.15
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 3.95
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.72631578947368
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.65157894736842
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 3.175
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 2.8625
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.55
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.34
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.69722222222222
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.65257142857143
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.36
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.43454545454546
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 2.88666666666667
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 2.72117647058824
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 2.775
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 2.75
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 2.775
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 2.75
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.54230769230769
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.50410256410256
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.54230769230769
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.50410256410256
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.54230769230769
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.50410256410256
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 2.84736842105263
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 2.70275
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 3.05107913669065
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 2.901125
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 1.6
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 1.7
+      }
+    ]
+  },
+  "LP.LPI.TIME.XQ": {
+    "description": "货物准时交付",
+    "count": 98,
+    "records": [
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2022",
+        "value": 2.86363636363636
+      },
+      {
+        "country": "Africa Eastern and Southern",
+        "country_code": "ZH",
+        "year": "2018",
+        "value": 2.78722222222222
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2022",
+        "value": 2.66666666666667
+      },
+      {
+        "country": "Africa Western and Central",
+        "country_code": "ZI",
+        "year": "2018",
+        "value": 2.76
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2022",
+        "value": 3.0875
+      },
+      {
+        "country": "Arab World",
+        "country_code": "1A",
+        "year": "2018",
+        "value": 3.05142857142857
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2022",
+        "value": 3
+      },
+      {
+        "country": "Caribbean small states",
+        "country_code": "S3",
+        "year": "2018",
+        "value": 2.64333333333333
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2022",
+        "value": 3.63636363636364
+      },
+      {
+        "country": "Central Europe and the Baltics",
+        "country_code": "B8",
+        "year": "2018",
+        "value": 3.60181818181818
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2022",
+        "value": 3.08604651162791
+      },
+      {
+        "country": "Early-demographic dividend",
+        "country_code": "V2",
+        "year": "2018",
+        "value": 3.0436170212766
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2022",
+        "value": 3.48421052631579
+      },
+      {
+        "country": "East Asia & Pacific",
+        "country_code": "Z4",
+        "year": "2018",
+        "value": 3.48857142857143
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2022",
+        "value": 3.2
+      },
+      {
+        "country": "East Asia & Pacific (excluding high income)",
+        "country_code": "4E",
+        "year": "2018",
+        "value": 3.19230769230769
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2022",
+        "value": 3.2
+      },
+      {
+        "country": "East Asia & Pacific (IDA & IBRD countries)",
+        "country_code": "T4",
+        "year": "2018",
+        "value": 3.19230769230769
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2022",
+        "value": 3.81
+      },
+      {
+        "country": "Euro area",
+        "country_code": "XC",
+        "year": "2018",
+        "value": 3.838
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2022",
+        "value": 3.55217391304348
+      },
+      {
+        "country": "Europe & Central Asia",
+        "country_code": "Z7",
+        "year": "2018",
+        "value": 3.6468085106383
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2022",
+        "value": 3.02666666666667
+      },
+      {
+        "country": "Europe & Central Asia (excluding high income)",
+        "country_code": "7E",
+        "year": "2018",
+        "value": 3.16125
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2022",
+        "value": 3.125
+      },
+      {
+        "country": "Europe & Central Asia (IDA & IBRD countries)",
+        "country_code": "T7",
+        "year": "2018",
+        "value": 3.25809523809524
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2022",
+        "value": 3.80740740740741
+      },
+      {
+        "country": "European Union",
+        "country_code": "EU",
+        "year": "2018",
+        "value": 3.86333333333333
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2022",
+        "value": 2.6952380952381
+      },
+      {
+        "country": "Fragile and conflict affected situations",
+        "country_code": "F1",
+        "year": "2018",
+        "value": 2.66862068965517
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2022",
+        "value": 2.6375
+      },
+      {
+        "country": "Heavily indebted poor countries (HIPC)",
+        "country_code": "XE",
+        "year": "2018",
+        "value": 2.71657142857143
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2022",
+        "value": 3.69464285714286
+      },
+      {
+        "country": "High income",
+        "country_code": "XD",
+        "year": "2018",
+        "value": 3.75821428571428
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2022",
+        "value": 3.15
+      },
+      {
+        "country": "IBRD only",
+        "country_code": "XF",
+        "year": "2018",
+        "value": 3.21431034482759
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2022",
+        "value": 2.98085106382979
+      },
+      {
+        "country": "IDA & IBRD total",
+        "country_code": "ZT",
+        "year": "2018",
+        "value": 2.99473684210526
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2022",
+        "value": 2.8
+      },
+      {
+        "country": "IDA blend",
+        "country_code": "XH",
+        "year": "2018",
+        "value": 2.812
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2022",
+        "value": 2.740625
+      },
+      {
+        "country": "IDA only",
+        "country_code": "XI",
+        "year": "2018",
+        "value": 2.75760869565217
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2022",
+        "value": 2.7525
+      },
+      {
+        "country": "IDA total",
+        "country_code": "XG",
+        "year": "2018",
+        "value": 2.76732142857143
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2022",
+        "value": 3.24102564102564
+      },
+      {
+        "country": "Late-demographic dividend",
+        "country_code": "V3",
+        "year": "2018",
+        "value": 3.28790697674419
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2022",
+        "value": 3.024
+      },
+      {
+        "country": "Latin America & Caribbean",
+        "country_code": "ZJ",
+        "year": "2018",
+        "value": 3.04782608695652
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2022",
+        "value": 3.0125
+      },
+      {
+        "country": "Latin America & Caribbean (excluding high income)",
+        "country_code": "XJ",
+        "year": "2018",
+        "value": 3.07466666666667
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2022",
+        "value": 3.04347826086957
+      },
+      {
+        "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+        "country_code": "T2",
+        "year": "2018",
+        "value": 3.09
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2022",
+        "value": 2.69583333333333
+      },
+      {
+        "country": "Least developed countries: UN classification",
+        "country_code": "XL",
+        "year": "2018",
+        "value": 2.73378378378378
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2022",
+        "value": 2.94268292682927
+      },
+      {
+        "country": "Low & middle income",
+        "country_code": "XO",
+        "year": "2018",
+        "value": 2.95912621359223
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2022",
+        "value": 2.62
+      },
+      {
+        "country": "Low income",
+        "country_code": "XM",
+        "year": "2018",
+        "value": 2.64318181818182
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2022",
+        "value": 2.91724137931034
+      },
+      {
+        "country": "Lower middle income",
+        "country_code": "XN",
+        "year": "2018",
+        "value": 2.91365853658537
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2022",
+        "value": 3.15294117647059
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan",
+        "country_code": "ZQ",
+        "year": "2018",
+        "value": 3.12636363636364
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2022",
+        "value": 2.81111111111111
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "country_code": "XQ",
+        "year": "2018",
+        "value": 2.88142857142857
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2022",
+        "value": 2.81111111111111
+      },
+      {
+        "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
+        "country_code": "T3",
+        "year": "2018",
+        "value": 2.88142857142857
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2022",
+        "value": 3.01492537313433
+      },
+      {
+        "country": "Middle income",
+        "country_code": "XP",
+        "year": "2018",
+        "value": 3.04493827160494
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2022",
+        "value": 3.95
+      },
+      {
+        "country": "North America",
+        "country_code": "XU",
+        "year": "2018",
+        "value": 4.02
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2022",
+        "value": 3.81315789473684
+      },
+      {
+        "country": "OECD members",
+        "country_code": "OE",
+        "year": "2018",
+        "value": 3.91157894736842
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2022",
+        "value": 3.3625
+      },
+      {
+        "country": "Other small states",
+        "country_code": "S4",
+        "year": "2018",
+        "value": 3.2
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2022",
+        "value": 2.75
+      },
+      {
+        "country": "Pacific island small states",
+        "country_code": "S2",
+        "year": "2018",
+        "value": 2.83
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2022",
+        "value": 3.75833333333333
+      },
+      {
+        "country": "Post-demographic dividend",
+        "country_code": "V4",
+        "year": "2018",
+        "value": 3.91914285714286
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2022",
+        "value": 2.605
+      },
+      {
+        "country": "Pre-demographic dividend",
+        "country_code": "V1",
+        "year": "2018",
+        "value": 2.71212121212121
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2022",
+        "value": 3.16
+      },
+      {
+        "country": "Small states",
+        "country_code": "S1",
+        "year": "2018",
+        "value": 3.05823529411765
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2022",
+        "value": 3.125
+      },
+      {
+        "country": "South Asia",
+        "country_code": "8S",
+        "year": "2018",
+        "value": 3.02
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2022",
+        "value": 3.125
+      },
+      {
+        "country": "South Asia (IDA & IBRD)",
+        "country_code": "T5",
+        "year": "2018",
+        "value": 3.02
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2022",
+        "value": 2.75
+      },
+      {
+        "country": "Sub-Saharan Africa",
+        "country_code": "ZG",
+        "year": "2018",
+        "value": 2.7725641025641
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2022",
+        "value": 2.75
+      },
+      {
+        "country": "Sub-Saharan Africa (excluding high income)",
+        "country_code": "ZF",
+        "year": "2018",
+        "value": 2.7725641025641
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2022",
+        "value": 2.75
+      },
+      {
+        "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "country_code": "T6",
+        "year": "2018",
+        "value": 2.7725641025641
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2022",
+        "value": 3.08947368421053
+      },
+      {
+        "country": "Upper middle income",
+        "country_code": "XT",
+        "year": "2018",
+        "value": 3.1795
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2022",
+        "value": 3.24244604316547
+      },
+      {
+        "country": "World",
+        "country_code": "1W",
+        "year": "2018",
+        "value": 3.2364375
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2022",
+        "value": 2.3
+      },
+      {
+        "country": "Afghanistan",
+        "country_code": "AF",
+        "year": "2018",
+        "value": 2.38
+      }
+    ]
+  }
+}

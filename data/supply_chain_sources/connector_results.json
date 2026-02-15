@@ -1,0 +1,10 @@
+{
+  "gscpi": {
+    "status": "success",
+    "rows": 19
+  },
+  "fred": {
+    "status": "success",
+    "count": 7
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "MANEMP": {
+    "description": "制造业就业人数(千人)",
+    "rows": 73,
+    "latest_date": "2026-01-01",
+    "latest_value": 12590.0
+  },
+  "DGORDER": {
+    "description": "耐用品新订单(百万美元)",
+    "rows": 71,
+    "latest_date": "2025-11-01",
+    "latest_value": 323764.0
+  },
+  "ISRATIO": {
+    "description": "库存销售比",
+    "rows": 71,
+    "latest_date": "2025-11-01",
+    "latest_value": 1.37
+  },
+  "INDPRO": {
+    "description": "工业生产指数",
+    "rows": 72,
+    "latest_date": "2025-12-01",
+    "latest_value": 102.325
+  },
+  "TCU": {
+    "description": "产能利用率(%)",
+    "rows": 72,
+    "latest_date": "2025-12-01",
+    "latest_value": 76.2615
+  },
+  "BOPGSTB": {
+    "description": "贸易差额(十亿美元)",
+    "rows": 71,
+    "latest_date": "2025-11-01",
+    "latest_value": -56825.0
+  },
+  "CPIAUCSL": {
+    "description": "CPI消费者价格指数",
+    "rows": 72,
+    "latest_date": "2026-01-01",
+    "latest_value": 326.588
+  }
+}

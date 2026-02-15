@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surpath Inc. (驿玛科技) 风险诊断报告 — AURIX AI</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0e17;--card:#111827;--card2:#1a2332;--border:#1e293b;--text:#e2e8f0;--muted:#94a3b8;--red:#ef4444;--orange:#f97316;--yellow:#eab308;--green:#22c55e;--blue:#3b82f6;--purple:#a855f7;--cyan:#06b6d4}
+body{font-family:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh}
+.container{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
+.header{text-align:center;padding:40px 0 30px;border-bottom:1px solid var(--border)}
+.risk-badge{display:inline-block;padding:6px 20px;border-radius:20px;font-size:13px;font-weight:700;letter-spacing:1px;margin-bottom:16px}
+.risk-critical{background:rgba(239,68,68,.15);color:var(--red);border:1px solid rgba(239,68,68,.3)}
+.tag{display:inline-block;padding:3px 12px;border-radius:12px;font-size:12px;margin:0 4px;background:rgba(59,130,246,.12);color:var(--blue);border:1px solid rgba(59,130,246,.2)}
+h1{font-size:28px;margin:12px 0 6px;font-weight:800;letter-spacing:-.5px}
+.subtitle{color:var(--muted);font-size:14px;margin-bottom:8px}
+.meta{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-top:16px;font-size:13px;color:var(--muted)}
+.score-section{display:flex;flex-wrap:wrap;justify-content:center;gap:30px;padding:40px 0}
+.score-ring{position:relative;width:180px;height:180px}
+.score-ring svg{transform:rotate(-90deg)}
+.score-ring circle{fill:none;stroke-width:10}
+.score-ring .bg-ring{stroke:var(--border)}
+.score-ring .fg-ring{stroke-linecap:round}
+.score-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+.score-center .num{font-size:42px;font-weight:800;color:var(--red)}
+.score-center .label{font-size:13px;color:var(--muted)}
+.dim-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;max-width:600px}
+.dim-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;text-align:center}
+.dim-card .dim-score{font-size:24px;font-weight:700;margin:4px 0}
+.dim-card .dim-name{font-size:12px;color:var(--muted)}
+.dim-card .dim-level{font-size:11px;padding:2px 8px;border-radius:8px;display:inline-block;margin-top:4px}
+.section{margin-top:40px}
+.section-title{font-size:20px;font-weight:700;padding-bottom:12px;border-bottom:2px solid var(--border);margin-bottom:20px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'';width:4px;height:22px;background:var(--blue);border-radius:2px;display:inline-block}
+.alert{border-radius:10px;padding:16px 18px;margin-bottom:12px;border-left:4px solid}
+.alert-critical{background:rgba(239,68,68,.06);border-color:var(--red)}
+.alert-high{background:rgba(249,115,22,.06);border-color:var(--orange)}
+.alert-info{background:rgba(59,130,246,.06);border-color:var(--blue)}
+.alert-level{font-size:11px;font-weight:700;letter-spacing:1px;margin-bottom:4px}
+.alert-critical .alert-level{color:var(--red)}
+.alert-high .alert-level{color:var(--orange)}
+.alert-text{font-size:14px;line-height:1.6}
+.alert-source{font-size:11px;color:var(--muted);margin-top:6px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:var(--card2);color:var(--muted);font-weight:600;text-align:left;padding:10px 14px;font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:10px 14px;border-bottom:1px solid var(--border)}
+tr:hover td{background:rgba(255,255,255,.02)}
+.chart-container{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:20px 0;text-align:center}
+.chart-container img{max-width:100%;height:auto;border-radius:8px}
+.chart-caption{font-size:12px;color:var(--muted);margin-top:8px}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.info-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px}
+.info-item .info-label{font-size:12px;color:var(--muted);margin-bottom:4px}
+.info-item .info-value{font-size:15px;font-weight:600}
+.timeline{position:relative;padding-left:30px;margin:20px 0}
+.timeline::before{content:'';position:absolute;left:10px;top:0;bottom:0;width:2px;background:var(--border)}
+.tl-item{position:relative;margin-bottom:24px}
+.tl-item::before{content:'';position:absolute;left:-24px;top:6px;width:12px;height:12px;border-radius:50%;border:2px solid}
+.tl-item.tl-green::before{border-color:var(--green);background:rgba(34,197,94,.2)}
+.tl-item.tl-blue::before{border-color:var(--blue);background:rgba(59,130,246,.2)}
+.tl-item.tl-purple::before{border-color:var(--purple);background:rgba(168,85,247,.2)}
+.tl-item.tl-red::before{border-color:var(--red);background:rgba(239,68,68,.2)}
+.tl-date{font-size:12px;color:var(--muted)}
+.tl-title{font-size:15px;font-weight:600;margin:2px 0}
+.tl-desc{font-size:13px;color:var(--muted)}
+.advice-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.advice-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;border-top:3px solid}
+.advice-card h4{font-size:15px;margin-bottom:10px}
+.advice-card p{font-size:13px;color:var(--muted);line-height:1.7}
+.source-badges{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.source-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:var(--card);border:1px solid var(--border);border-radius:20px;font-size:12px;color:var(--muted)}
+.source-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
+.download-bar{position:fixed;bottom:0;left:0;right:0;background:rgba(17,24,39,.95);backdrop-filter:blur(10px);border-top:1px solid var(--border);padding:12px;display:flex;justify-content:center;gap:12px;z-index:100}
+.download-bar button{padding:8px 20px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;cursor:pointer;font-weight:600;transition:all .2s}
+.download-bar button:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.download-bar button.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+.footer{text-align:center;padding:40px 0 20px;color:var(--muted);font-size:12px;border-top:1px solid var(--border);margin-top:40px}
+@media(max-width:768px){
+  .container{padding:12px 10px 80px}
+  h1{font-size:22px}
+  .score-section{flex-direction:column;align-items:center}
+  .dim-cards{grid-template-columns:repeat(2,1fr)}
+  .info-grid,.advice-grid{grid-template-columns:1fr}
+  .meta{flex-direction:column;align-items:center;gap:8px}
+  table{font-size:12px}
+  th,td{padding:8px 10px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+  <div class="risk-badge risk-critical">CRITICAL RISK</div>
+  <div>
+    <span class="tag">供应链聚焦</span>
+    <span class="tag">非上市企业</span>
+    <span class="tag">跨境物流</span>
+  </div>
+  <h1>Surpath Inc. (驿玛科技)</h1>
+  <div class="subtitle">非上市企业 · 跨境物流科技 · AI全球企业风险预警AGENT</div>
+  <div class="meta">
+    <span>报告日期：2026年2月15日</span>
+    <span>总部：Tustin, CA, USA</span>
+    <span>成立：2019年</span>
+    <span>融资阶段：Series A</span>
+  </div>
+</div>
+
+<div class="score-section">
+  <div class="score-ring">
+    <svg width="180" height="180" viewBox="0 0 180 180">
+      <circle class="bg-ring" cx="90" cy="90" r="75"/>
+      <circle class="fg-ring" cx="90" cy="90" r="75" stroke="#ef4444" stroke-dasharray="471" stroke-dashoffset="85"/>
+    </svg>
+    <div class="score-center">
+      <div class="num">81.9</div>
+      <div class="label">综合风险评分</div>
+    </div>
+  </div>
+  <div class="dim-cards">
+    <div class="dim-card"><div class="dim-name">贸易活跃度</div><div class="dim-score" style="color:var(--red)">100.0</div><span class="dim-level" style="background:rgba(239,68,68,.12);color:var(--red)">极高风险</span></div>
+    <div class="dim-card"><div class="dim-name">口碑/舆情</div><div class="dim-score" style="color:var(--red)">87.5</div><span class="dim-level" style="background:rgba(239,68,68,.12);color:var(--red)">极高风险</span></div>
+    <div class="dim-card"><div class="dim-name">运营稳定性</div><div class="dim-score" style="color:var(--red)">83.5</div><span class="dim-level" style="background:rgba(239,68,68,.12);color:var(--red)">极高风险</span></div>
+    <div class="dim-card"><div class="dim-name">供应链风险</div><div class="dim-score" style="color:var(--orange)">70.5</div><span class="dim-level" style="background:rgba(249,115,22,.12);color:var(--orange)">高风险</span></div>
+    <div class="dim-card"><div class="dim-name">融资健康</div><div class="dim-score" style="color:var(--orange)">64.0</div><span class="dim-level" style="background:rgba(249,115,22,.12);color:var(--orange)">中高风险</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">核心风险预警</div>
+  <div class="alert alert-critical"><div class="alert-level">CRITICAL</div><div class="alert-text"><strong>贸易活动停滞</strong>：年度提单量连续三年下滑，2025年同比暴跌79%，且年内有7个月无任何海运提单记录，显示公司主营业务可能已陷入停滞。</div><div class="alert-source">数据来源：ImportYeti · 置信度：高</div></div>
+  <div class="alert alert-critical"><div class="alert-level">CRITICAL</div><div class="alert-text"><strong>融资枯竭</strong>：自2023年2月A轮融资后，已连续36个月无新融资进入。对于一家需要持续投入技术研发和市场扩张的创业公司而言，这是极其危险的信号。</div><div class="alert-source">数据来源：Crunchbase / Tracxn · 置信度：高</div></div>
+  <div class="alert alert-high"><div class="alert-level">HIGH</div><div class="alert-text"><strong>司法诉讼</strong>：公司于2023年11月被诉至加州中区联邦法院（案号8:2023cv02080），案由为"运输中货物损坏"（49 U.S.C. § 81），表明其核心物流服务存在履约质量问题。</div><div class="alert-source">数据来源：Justia / PACER · 置信度：高</div></div>
+  <div class="alert alert-high"><div class="alert-level">HIGH</div><div class="alert-text"><strong>管理与文化危机</strong>：员工评价极差（Indeed 1.0/5.0），普遍反映"管理混乱"、"计划频繁变更"、"工作时间长且无意义讨论多"。</div><div class="alert-source">数据来源：Indeed / Glassdoor · 置信度：中</div></div>
+  <div class="alert alert-high"><div class="alert-level">HIGH</div><div class="alert-text"><strong>供应链高度集中</strong>：85%的货物来自中国，单一供应商Safround Logistics占比超过64%（HHI指数4,300），在当前地缘政治和贸易环境下构成巨大脆弱性。</div><div class="alert-source">数据来源：ImportYeti · 置信度：高</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">企业概况</div>
+  <p style="margin-bottom:16px;font-size:14px;color:var(--muted)">Surpath Inc.（驿玛科技）成立于2019年，由前亚马逊员工创立，定位为"AI驱动的跨境供应链科技公司"。总部位于美国加州Tustin，在中国上海设有团队。核心业务为跨境电商卖家提供物流、仓储、软件一站式解决方案。</p>
+  <div class="info-grid">
+    <div class="info-item"><div class="info-label">成立时间</div><div class="info-value">2019年7月</div></div>
+    <div class="info-item"><div class="info-label">融资阶段 / 累计融资</div><div class="info-value">Series A / $15.65M</div></div>
+    <div class="info-item"><div class="info-label">员工规模</div><div class="info-value">11-50人 (LinkedIn)</div></div>
+    <div class="info-item"><div class="info-label">管理团队</div><div class="info-value">马锦冬 (CEO) · 马飞 (President) · 王晴 (CPO)</div></div>
+    <div class="info-item"><div class="info-label">主要投资方</div><div class="info-value">eWTP Arabia Capital · 北极光创投 · 经纬中国</div></div>
+    <div class="info-item"><div class="info-label">法律实体 / 注册地</div><div class="info-value">Surpath, Inc. (Delaware Corp.)</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">供应链风险深度分析</div>
+  <h3 style="font-size:16px;margin:20px 0 10px;color:var(--text)">4.1 贸易活跃度分析</h3>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:12px">ImportYeti海关提单数据显示，Surpath的业务量在2022年达到顶峰后急剧萎缩。2025年截至10月仅有5票提单，同比暴跌79%。</p>
+  <div class="chart-container"><img src="../data/surpath/charts/02_yearly_shipments.png" alt="年度提单趋势"><div class="chart-caption">图1：Surpath Inc. 年度提单趋势 (数据来源：ImportYeti)</div></div>
+  <div class="chart-container"><img src="../data/surpath/charts/03_monthly_2025.png" alt="2025月度提单"><div class="chart-caption">图2：2025年月度提单分布 — 7个月无任何发货记录</div></div>
+  <h3 style="font-size:16px;margin:20px 0 10px;color:var(--text)">4.2 供应商结构分析</h3>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:12px">供应链高度集中于中国供应商，Safround Logistics一家独大（64%），HHI指数高达4,300。</p>
+  <div class="chart-container"><img src="../data/surpath/charts/04_supplier_concentration.png" alt="供应商集中度"><div class="chart-caption">图3：供应商集中度分析 — HHI ≈ 4,300 (极高集中度)</div></div>
+  <table>
+    <thead><tr><th>供应商</th><th>所在地</th><th>占比</th><th>HS编码</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Safround Logistics</strong></td><td>宁波, 中国</td><td style="color:var(--red);font-weight:700">64%</td><td>9503, 9018, 2470, 9403</td></tr>
+      <tr><td>Ubi Logistics China</td><td>民生, 中国</td><td>9%</td><td>—</td></tr>
+      <tr><td>G & F Logistics</td><td>浦东, 中国</td><td>7%</td><td>9404</td></tr>
+      <tr><td>Star Advanced Materials</td><td>济南, 中国</td><td>4%</td><td>—</td></tr>
+      <tr><td>USPTI Viet Nam</td><td>越南</td><td>2%</td><td>8302</td></tr>
+      <tr><td>其他5家</td><td>中国/越南</td><td>14%</td><td>8711等</td></tr>
+    </tbody>
+  </table>
+  <h3 style="font-size:16px;margin:20px 0 10px;color:var(--text)">4.3 全球供应链宏观环境</h3>
+  <div class="chart-container"><img src="../data/surpath/charts/06_gscpi_trend.png" alt="GSCPI趋势"><div class="chart-caption">图4：全球供应链压力指数 (NY Fed GSCPI)</div></div>
+  <div class="chart-container"><img src="../data/surpath/charts/08_macro_indicators.png" alt="宏观指标"><div class="chart-caption">图5：美国供应链相关宏观经济指标 (FRED)</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">融资与运营分析</div>
+  <h3 style="font-size:16px;margin:20px 0 10px;color:var(--text)">5.1 融资时间线</h3>
+  <div class="chart-container"><img src="../data/surpath/charts/07_funding_timeline.png" alt="融资时间线"><div class="chart-caption">图6：Surpath Inc. 融资时间线 — 3年融资空窗期</div></div>
+  <div class="timeline">
+    <div class="tl-item tl-green"><div class="tl-date">2019年7月</div><div class="tl-title">公司成立</div><div class="tl-desc">由前亚马逊员工在上海和Tustin创立</div></div>
+    <div class="tl-item tl-blue"><div class="tl-date">2021年10月</div><div class="tl-title">Pre-A轮 — 1亿人民币</div><div class="tl-desc">经纬中国领投，指数资本担任FA</div></div>
+    <div class="tl-item tl-blue"><div class="tl-date">2022年6月</div><div class="tl-title">Pre-A+轮 — 数千万元</div><div class="tl-desc">北极光创投独家投资</div></div>
+    <div class="tl-item tl-purple"><div class="tl-date">2023年2月</div><div class="tl-title">A轮 — 数千万美元</div><div class="tl-desc">eWTP Arabia Capital独家投资</div></div>
+    <div class="tl-item tl-red"><div class="tl-date">2023年2月 — 至今</div><div class="tl-title">36个月融资空窗期</div><div class="tl-desc">无新一轮融资信息，现金流承压</div></div>
+  </div>
+  <h3 style="font-size:16px;margin:20px 0 10px;color:var(--text)">5.2 员工口碑</h3>
+  <div class="chart-container"><img src="../data/surpath/charts/05_employee_radar.png" alt="员工满意度"><div class="chart-caption">图7：员工满意度对比 — 全面低于行业平均</div></div>
+  <table>
+    <thead><tr><th>维度</th><th>Surpath</th><th>行业平均</th><th>差距</th></tr></thead>
+    <tbody>
+      <tr><td>工作生活平衡</td><td style="color:var(--red)">1.0</td><td>3.3</td><td style="color:var(--red)">-2.3</td></tr>
+      <tr><td>薪酬福利</td><td style="color:var(--red)">1.0</td><td>3.5</td><td style="color:var(--red)">-2.5</td></tr>
+      <tr><td>管理层</td><td style="color:var(--red)">1.0</td><td>3.2</td><td style="color:var(--red)">-2.2</td></tr>
+      <tr><td>企业文化</td><td style="color:var(--red)">1.0</td><td>3.4</td><td style="color:var(--red)">-2.4</td></tr>
+      <tr><td>职业发展</td><td style="color:var(--yellow)">3.0</td><td>3.3</td><td>-0.3</td></tr>
+    </tbody>
+  </table>
+  <div class="alert alert-info" style="margin-top:16px"><div class="alert-level" style="color:var(--blue)">员工评论摘要</div><div class="alert-text" style="font-style:italic">"The working hours are long and most time is wasted on meaningless discussions. Management is completely a mess. The plans keep changing all the time and you have no clues about what you should do." — Indeed, 2023年10月</div></div>
+  <h3 style="font-size:16px;margin:20px 0 10px;color:var(--text)">5.3 司法诉讼</h3>
+  <table>
+    <thead><tr><th>案件信息</th><th>详情</th></tr></thead>
+    <tbody>
+      <tr><td><strong>案件名称</strong></td><td>Shenzhen Gangshi Technology Co., LTD v. Surpath, Inc. et al</td></tr>
+      <tr><td><strong>案号</strong></td><td>8:2023cv02080</td></tr>
+      <tr><td><strong>法院</strong></td><td>加州中区联邦地方法院</td></tr>
+      <tr><td><strong>立案日期</strong></td><td>2023年11月4日</td></tr>
+      <tr><td><strong>案由</strong></td><td>运输中货物损坏 (49 U.S.C. § 81)</td></tr>
+      <tr><td><strong>被告</strong></td><td>Surpath, Inc.、Value Logistics, Inc.、KNN Logistics, Inc.、Arturo Giovanni Moreno</td></tr>
+      <tr><td><strong>状态</strong></td><td>进行中</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">竞争格局</div>
+  <table>
+    <thead><tr><th>竞争对手</th><th>成立</th><th>总部</th><th>融资</th><th>核心优势</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Hurricane Commerce</strong></td><td>2016</td><td>英国</td><td>Series A</td><td>跨境贸易数据合规与关税计算</td></tr>
+      <tr><td><strong>eFreight (易仓)</strong></td><td>2013</td><td>北京</td><td>Series B</td><td>强大的ERP和海关清关软件</td></tr>
+      <tr><td><strong>Globavend</strong></td><td>2014</td><td>香港</td><td>上市</td><td>面向电商平台的一站式履约服务</td></tr>
+      <tr><td><strong>Moduslink</strong></td><td>1968</td><td>美国</td><td>上市</td><td>全球供应链外包服务巨头</td></tr>
+      <tr><td><strong>CNE</strong></td><td>2003</td><td>上海</td><td>Series A</td><td>跨境物流方案</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">五维度风险全景</div>
+  <div class="chart-container"><img src="../data/surpath/charts/01_risk_radar.png" alt="风险雷达图"><div class="chart-caption">图8：Surpath Inc. 五维度风险评估雷达图 vs 行业平均</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">风险管理建议</div>
+  <div class="advice-grid">
+    <div class="advice-card" style="border-top-color:var(--red)"><h4 style="color:var(--red)">贷前/投资前尽调</h4><p><strong>不建议合作。</strong>若必须合作，需对公司实际控制人进行深度背景调查，并要求提供银行流水以验证实际经营状况。必须对未决诉讼进行专项法律尽调。</p></div>
+    <div class="advice-card" style="border-top-color:var(--orange)"><h4 style="color:var(--orange)">事中监控</h4><p>实施最高级别的监控。<strong>每日</strong>监控其提单数据变化、法院传票更新、关键人员离职情况。任何进一步的业务下滑或负面消息都应触发平仓或退出机制。</p></div>
+    <div class="advice-card" style="border-top-color:var(--yellow)"><h4 style="color:var(--yellow)">事后风险处置</h4><p>若已存在业务往来，应立即评估应收账款风险，并考虑采取法律手段保全资产。对于投资方，应准备启动清算或破产程序，最大程度减少损失。</p></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">数据来源</div>
+  <div class="source-badges">
+    <span class="source-badge"><span class="dot"></span>ImportYeti</span>
+    <span class="source-badge"><span class="dot"></span>U.S. Customs</span>
+    <span class="source-badge"><span class="dot"></span>Justia / PACER</span>
+    <span class="source-badge"><span class="dot"></span>Crunchbase</span>
+    <span class="source-badge"><span class="dot"></span>Tracxn</span>
+    <span class="source-badge"><span class="dot"></span>Indeed</span>
+    <span class="source-badge"><span class="dot"></span>Glassdoor</span>
+    <span class="source-badge"><span class="dot"></span>LinkedIn</span>
+    <span class="source-badge"><span class="dot"></span>FMCSA</span>
+    <span class="source-badge"><span class="dot"></span>NY Fed GSCPI</span>
+    <span class="source-badge"><span class="dot"></span>FRED</span>
+    <span class="source-badge"><span class="dot"></span>World Bank</span>
+  </div>
+</div>
+
+<div class="footer">
+  <p><strong>免责声明</strong>：本报告仅供参考，不构成任何投资或商业决策建议。所有信息均基于公开数据分析，AURIX AI不对其准确性或完整性作绝对保证。在做出任何决策前，请进行独立的尽职调查。</p>
+  <p style="margin-top:12px">Powered by <strong>AURIX AI</strong> · 全球企业风险预警AGENT · 2026</p>
+</div>
+</div>
+
+<div class="download-bar">
+  <button onclick="window.print()">打印 / PDF</button>
+  <button onclick="downloadMD()">下载 Markdown</button>
+  <button class="primary" onclick="downloadWord()">下载 Word</button>
+</div>
+
+<script>
+function downloadMD(){window.open('surpath_risk_report.md','_blank')}
+function downloadWord(){
+  var h=document.querySelector('.container').innerHTML;
+  var b=new Blob(['<html><head><meta charset="utf-8"><style>body{font-family:Microsoft YaHei,sans-serif;padding:40px;line-height:1.8}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f5f5f5}img{max-width:100%}</style></head><body>'+h+'</body></html>'],{type:'application/msword'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='Surpath_Inc_风险诊断报告.doc';a.click();
+}
+</script>
+</body>
+</html>

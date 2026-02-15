@@ -1,0 +1,115 @@
+{
+  "source": "ImportYeti",
+  "company": "Surpath Inc.",
+  "url": "https://www.importyeti.com/company/surpath",
+  "data_updated": "2026-02-02",
+  "most_recent_shipment": "2025-10-31",
+  "total_sea_shipments": 89,
+  "avg_teu_per_shipment": 1.31,
+  "avg_teu_per_month": 1.42,
+  "est_shipping_spend": "$1,604 (1% coverage)",
+  "data_range": "2022-02 to 2025-10",
+  "location": "Tustin, CA 92780, US",
+  "website": "www.surpathlogistics.com",
+  "suppliers": [
+    {
+      "name": "Safround Logistics",
+      "location": "Yinzhou Qu, China",
+      "hs_codes": ["9503.00", "9018.39", "2470.10", "9403.20"],
+      "rank": 1,
+      "estimated_share_pct": 64
+    },
+    {
+      "name": "Ubi Logistics China",
+      "location": "Minsheng, China",
+      "rank": 2,
+      "estimated_share_pct": 9
+    },
+    {
+      "name": "G & F Logistics",
+      "location": "Pudong Xinqu, China",
+      "hs_codes": ["9404.40"],
+      "rank": 3,
+      "estimated_share_pct": 7
+    },
+    {
+      "name": "USPTI Viet Nam",
+      "location": "Xa Duc Thang, Vietnam",
+      "hs_codes": ["8302.42"],
+      "rank": 4,
+      "estimated_share_pct": 2
+    },
+    {
+      "name": "Routing Supply Chain Technology",
+      "location": "Wuhe, China",
+      "rank": 5,
+      "estimated_share_pct": 3
+    },
+    {
+      "name": "Rain Logistics",
+      "location": "Hong'en, China",
+      "rank": 6,
+      "estimated_share_pct": 3
+    },
+    {
+      "name": "Just In Time JSC",
+      "location": "Tan An, Vietnam",
+      "rank": 7,
+      "estimated_share_pct": 2
+    },
+    {
+      "name": "P Don International Supply Chain",
+      "location": "Tianjin Shi, China",
+      "hs_codes": ["8711.60"],
+      "rank": 8,
+      "estimated_share_pct": 3
+    },
+    {
+      "name": "Clever Green",
+      "location": "China",
+      "rank": 9,
+      "estimated_share_pct": 3
+    },
+    {
+      "name": "Star Advanced Materials Shandong",
+      "location": "Jinan Shi, China",
+      "rank": 10,
+      "estimated_share_pct": 4
+    }
+  ],
+  "yearly_shipments": {
+    "2022": 35,
+    "2023": 27,
+    "2024": 24,
+    "2025": 3
+  },
+  "monthly_2025": {
+    "Jan": 0, "Feb": 0, "Mar": 0, "Apr": 0, "May": 0,
+    "Jun": 1, "Jul": 1, "Aug": 1, "Sep": 0, "Oct": 2, "Nov": 0, "Dec": 0
+  },
+  "products": [
+    "Garage Storage Rack",
+    "Lifting Table",
+    "Desk Frame",
+    "Wall Shelf",
+    "Adjustable Desk Frame",
+    "Computer Riser",
+    "Topboard",
+    "Rack Accessories"
+  ],
+  "recent_shipments": [
+    {"date": "2025-10-31", "supplier": "Just In Time JSC", "cargo": "Garage Storage Rack, Accessories, Wall Shelf, Desk Frame"},
+    {"date": "2025-10-15", "supplier": "USPTI Viet Nam", "cargo": "Rack Accessories"},
+    {"date": "2025-08-19", "supplier": "USPTI Viet Nam", "cargo": "Garage Storage Rack"},
+    {"date": "2025-07-21", "supplier": "Safround Logistics", "cargo": "Infusion"},
+    {"date": "2025-06-10", "supplier": "Safround Logistics", "cargo": "Infusion"}
+  ],
+  "supply_chain_insights": {
+    "china_dependency": "约85%的发货来自中国",
+    "vietnam_presence": "USPTI Viet Nam和Just In Time JSC (越南) 约4%",
+    "top_supplier_concentration": "Safround Logistics占64%，前3家占80%",
+    "hhi_index": "约4300 (极高集中度)",
+    "shipment_trend": "2022年35票 → 2025年仅3-5票，同比暴跌79%",
+    "key_risk": "贸易活动几近停滞，供应商高度集中于单一中国供应商"
+  }
+}
