@@ -1,0 +1,177 @@
+{
+  "company": "iRobot Corporation",
+  "ticker": "IRBTQ (OTC)",
+  "assessment_date": "2026-02-15",
+  "total_risk_score": 70.8,
+  "risk_level": "高风险",
+  "dimensions": {
+    "财务风险": {
+      "score": 90,
+      "sources": [
+        "SEC EDGAR XBRL",
+        "Yahoo Finance"
+      ],
+      "confidence": "高",
+      "details": {
+        "revenue_2024": 681849000,
+        "revenue_2022": 1183383000,
+        "net_income_2024": -145518000,
+        "cash_2024": 134303000,
+        "market_cap": 14843741,
+        "chapter_11": true,
+        "consecutive_loss_years": 3
+      }
+    },
+    "市场风险": {
+      "score": 85,
+      "sources": [
+        "Yahoo Finance",
+        "SEC EDGAR"
+      ],
+      "confidence": "高",
+      "details": {
+        "current_price": 0.4664,
+        "52_week_high": 13.06,
+        "52_week_low": 0.0911,
+        "price_decline_from_high_pct": -96.4,
+        "delisted": true,
+        "shareholder_wipeout": true
+      }
+    },
+    "供应链风险": {
+      "score": 65,
+      "sources": [
+        "ImportYeti",
+        "NY Fed GSCPI"
+      ],
+      "confidence": "高",
+      "details": {
+        "china_dependency_pct": 91.9,
+        "asia_dependency_pct": 99.6,
+        "total_shipments": 6054,
+        "last_shipment_date": "2024-09-29",
+        "top_supplier_count": 7,
+        "gscpi_latest": {
+          "date": "31-Jan-2026",
+          "value": 0.41147747569247506
+        }
+      }
+    },
+    "舆情风险": {
+      "score": 50,
+      "sources": [
+        "Indeed",
+        "Glassdoor",
+        "新闻搜索",
+        "Trustpilot"
+      ],
+      "confidence": "高",
+      "details": {
+        "indeed_rating": 4.0,
+        "indeed_reviews": 43,
+        "glassdoor_rating": 3.4,
+        "glassdoor_reviews": 384,
+        "recommend_to_friend_pct": 41,
+        "negative_news_events": 1,
+        "customer_sentiment": "负面"
+      }
+    },
+    "运营风险": {
+      "score": 60,
+      "sources": [
+        "SEC EDGAR",
+        "Yahoo Finance",
+        "新闻搜索"
+      ],
+      "confidence": "高",
+      "details": {
+        "employees": 1372,
+        "chapter_11": true,
+        "picea_acquisition": true,
+        "rd_expense_latest": 93283000
+      }
+    },
+    "合规风险": {
+      "score": 45,
+      "sources": [
+        "SEC EDGAR",
+        "OSHA",
+        "EPA ECHO",
+        "新闻搜索"
+      ],
+      "confidence": "中",
+      "details": {
+        "data_security_concern": true,
+        "chapter_11_legal": true,
+        "osha_violations": 0,
+        "epa_violations": 0,
+        "tariff_risk": true
+      }
+    }
+  },
+  "weights": {
+    "财务风险": 0.25,
+    "市场风险": 0.2,
+    "供应链风险": 0.2,
+    "舆情风险": 0.15,
+    "运营风险": 0.12,
+    "合规风险": 0.08
+  },
+  "data_sources_used": [
+    {
+      "name": "SEC EDGAR XBRL",
+      "type": "官方财务数据",
+      "confidence": "高"
+    },
+    {
+      "name": "Yahoo Finance",
+      "type": "市场交易数据",
+      "confidence": "高"
+    },
+    {
+      "name": "ImportYeti",
+      "type": "海关提单数据",
+      "confidence": "高"
+    },
+    {
+      "name": "Indeed",
+      "type": "员工评价",
+      "confidence": "高"
+    },
+    {
+      "name": "Glassdoor",
+      "type": "员工评价",
+      "confidence": "高"
+    },
+    {
+      "name": "NY Fed GSCPI",
+      "type": "供应链压力指数",
+      "confidence": "高"
+    },
+    {
+      "name": "FRED",
+      "type": "宏观经济数据",
+      "confidence": "高"
+    },
+    {
+      "name": "World Bank LPI",
+      "type": "物流绩效指数",
+      "confidence": "高"
+    },
+    {
+      "name": "OSHA",
+      "type": "职业安全数据",
+      "confidence": "中"
+    },
+    {
+      "name": "EPA ECHO",
+      "type": "环保合规数据",
+      "confidence": "中"
+    },
+    {
+      "name": "新闻搜索",
+      "type": "舆情数据",
+      "confidence": "高"
+    }
+  ]
+}

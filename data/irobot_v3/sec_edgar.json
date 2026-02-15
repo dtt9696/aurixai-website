@@ -1,0 +1,31 @@
+{
+  "source": "SEC EDGAR",
+  "company_name": "IROBOT CORP",
+  "cik": "0001159167",
+  "sic": "3630",
+  "sic_description": "Household Appliances",
+  "tickers": [
+    "IRBTQ"
+  ],
+  "exchanges": [
+    "OTC"
+  ],
+  "state_of_incorporation": "DE",
+  "fiscal_year_end": "1231",
+  "recent_filings": [
+    {
+      "form": "8-K",
+      "date": "2026-01-26"
+    },
+    {
+      "form": "8-K",
+      "date": "2025-12-15"
+    },
+    {
+      "form": "8-K",
+      "date": "2025-12-15"
+    }
+  ],
+  "confidence": "\u9ad8",
+  "data_type": "\u5b98\u65b9\u76d1\u7ba1\u6570\u636e"
+}

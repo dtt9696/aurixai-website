@@ -1,0 +1,6 @@
+{
+  "source": "Glassdoor",
+  "note": "Glassdoor页面重定向到Paysafe公司（E35498可能已被重新分配），iRobot的Glassdoor页面可能已不可用或公司ID已变更。需要通过搜索获取iRobot的Glassdoor评分。",
+  "confidence": "低",
+  "fallback": "使用Indeed数据作为主要员工评价来源"
+}

@@ -1,0 +1,57 @@
+{
+  "source": "ImportYeti",
+  "url": "https://www.importyeti.com/company/irobot",
+  "data_updated": "2026-02-02",
+  "confidence": "高",
+  "data_type": "海关提单数据",
+  "company": {
+    "name": "Irobot",
+    "address": "Bedford, MA 01730, US",
+    "website": "www.irobot.com",
+    "most_recent_shipment": "2024-09-29",
+    "total_sea_shipments": 6054,
+    "estimated_shipping_spend": "$12.5M",
+    "coverage": "44%",
+    "names_used": 6,
+    "addresses_used": 19
+  },
+  "shipments_by_country": {
+    "asia": {
+      "China": 5564,
+      "Malaysia": 369,
+      "Hong Kong": 88,
+      "South Korea": 4,
+      "Singapore": 3
+    },
+    "europe": {
+      "Portugal": 14,
+      "Germany": 6,
+      "United Kingdom": 1,
+      "Netherlands": 1
+    }
+  },
+  "china_dependency_pct": 91.9,
+  "asia_dependency_pct": 99.6,
+  "top_suppliers": [
+    {"name": "Jabil Circuit Guangzhou", "city": "Cheng'en", "country": "China", "hs_codes": ["8509.90", "8508.11", "8509.10", "8204.11"]},
+    {"name": "Huizhou BYD Electronic", "city": "Xiangshui", "country": "China", "hs_codes": ["8509.10", "8509.90", "8508.11", "4016.95"]},
+    {"name": "Kin Yat Industrial", "city": "Hong'en", "country": "China", "hs_codes": ["8509.90", "8509.10", "4016.95", "8414.10"]},
+    {"name": "Sanyo Energy Suzhou", "city": "Sunwu", "country": "China", "hs_codes": ["8473.21", "8481.40", "6601.91", "3922.20"]},
+    {"name": "VS Industrial Berhad", "city": "Johor", "country": "Malaysia", "hs_codes": ["8509.90", "8508.11", "8508.70", "8544.42"]},
+    {"name": "Kang Na Hsiung Enterprise", "city": "Qingpu", "country": "China", "hs_codes": ["9612.20", "8481.40", "3824.50", "8471.80"]},
+    {"name": "Hi-P Shanghai Housing Appliance", "city": "Shanghai", "country": "China", "hs_codes": []}
+  ],
+  "recent_shipments": [
+    {"date": "2024-09-29", "supplier": "NSBWPKG08502912", "weight_kg": 14162, "quantity": "1,319 ctn", "containers": 2, "description": "Electric Vacuum Cleaners Battery"},
+    {"date": "2024-01-15", "supplier": "SMLMSHBW3C162200M", "weight_kg": 1834, "quantity": "1,063 ctn", "containers": 1, "description": "Accessory Braava Dry Sweeping Wet Mopping Pads Pack"},
+    {"date": "2024-01-15", "supplier": "YMJAW226472440M", "weight_kg": 1507, "quantity": "944 ctn", "containers": 1, "description": "Accessory Evacuation Bulk Evac"},
+    {"date": "2024-01-14", "supplier": "ONEYHKGDF0375400M", "weight_kg": 8900, "quantity": "2,765 ctn", "containers": 1, "description": "Automatic Floor Cleaner Battery"}
+  ],
+  "key_observations": [
+    "最近一次提单日期为2024年9月29日，之后无新提单记录",
+    "中国供应商占比91.9%，供应链高度集中",
+    "主要供应商包括Jabil(捷普)、BYD(比亚迪)、Kin Yat(建溢)等",
+    "HS编码集中在8509(家用电动器具)和8508(真空吸尘器)",
+    "2024年提单量大幅下降，与公司经营困难一致"
+  ]
+}

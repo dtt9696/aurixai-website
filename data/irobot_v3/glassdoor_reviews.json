@@ -1,0 +1,42 @@
+{
+  "source": "Glassdoor (via search)",
+  "url": "https://www.glassdoor.com/Reviews/iRobot-Reviews-E35096.htm",
+  "confidence": "高",
+  "data_type": "员工评价数据",
+  "company": "iRobot",
+  "glassdoor_overall_rating": 3.4,
+  "glassdoor_total_reviews": 384,
+  "glassdoor_overall_rating_v2": 3.3,
+  "glassdoor_total_reviews_v2": 525,
+  "recommend_to_friend_pct": 41,
+  "detailed_ratings": {
+    "work_life_balance": 4.3,
+    "culture_and_values": 3.7,
+    "career_opportunities": 3.4,
+    "compensation_and_benefits": 3.3,
+    "senior_management": 3.2,
+    "diversity_and_inclusion": 4.1
+  },
+  "comparably": {
+    "source": "Comparably",
+    "total_reviews": 36,
+    "positive_pct": 55,
+    "constructive_pct": 45
+  },
+  "zoominfo": {
+    "source": "ZoomInfo",
+    "employees": "500-1000",
+    "locations": 18,
+    "headquarters": "Bedford, MA"
+  },
+  "trustpilot_sentiment": "负面 - 客户投诉产品质量和客服",
+  "consumeraffairs_sentiment": "负面 - 客户不推荐该品牌",
+  "key_themes": [
+    "Glassdoor评分3.3-3.4，低于行业平均",
+    "仅41%员工推荐给朋友，远低于行业平均",
+    "工作生活平衡评分较高(4.3)",
+    "高管管理评分最低(3.2)",
+    "客户对产品质量和售后服务评价负面",
+    "员工规模从1372人(Yahoo Finance)缩减，ZoomInfo显示500-1000人"
+  ]
+}

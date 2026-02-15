@@ -1,0 +1,34 @@
+{
+  "source": "Indeed",
+  "url": "https://www.indeed.com/cmp/Irobot/reviews",
+  "confidence": "高",
+  "data_type": "员工评价数据",
+  "company": "iRobot",
+  "overall_rating": 4.0,
+  "total_reviews": 43,
+  "detailed_ratings": {
+    "work_life_balance": 3.9,
+    "pay_and_benefits": 3.8,
+    "job_security_and_advancement": 3.2,
+    "management": 3.4,
+    "culture": 3.7
+  },
+  "recent_review_themes": [
+    "团队间沟通不畅是反复出现的主题",
+    "工程师文化浓厚，技术氛围好",
+    "工作生活平衡整体良好",
+    "公司方向感有时不明确",
+    "大规模裁员影响士气",
+    "中层管理沟通需改善",
+    "产品有趣，同事优秀"
+  ],
+  "sample_reviews": [
+    {"title": "Great Place to work, but poor communication between teams", "role": "N/A", "summary": "Great place to work learn and grow. Communication between teams needs improvement."},
+    {"title": "Was a great culture while it lasted", "role": "N/A", "summary": "Initially impressed by strong iRoboteer culture, but things changed over time."},
+    {"title": "Fun place to work, great mentorship", "role": "Intern", "summary": "Started as intern, hired after graduating. Great intern program and engineering mentorship."},
+    {"title": "used to be great", "role": "N/A", "summary": "Was a great place to work, management/PMs don't have proper communication."},
+    {"title": "Very siloed and bureaucratic", "role": "N/A", "summary": "Despite high-tech nature, company is siloed and bureaucratic. Direct team was great."},
+    {"title": "Ok", "role": "Senior Software Engineer", "summary": "Good WLB, needs help finding talent. Company lacks direction sometimes."},
+    {"title": "Was laid off due to canceling of project", "role": "N/A", "summary": "Laid off due to project cancellation and economic downturn."}
+  ]
+}

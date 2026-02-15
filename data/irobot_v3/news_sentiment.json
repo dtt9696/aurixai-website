@@ -1,0 +1,64 @@
+{
+  "source": "多渠道新闻搜索",
+  "confidence": "高",
+  "data_type": "新闻舆情数据",
+  "collection_date": "2026-02-15",
+  "company": "iRobot Corporation",
+  "ticker": "IRBTQ (OTC)",
+  "major_events": [
+    {
+      "date": "2025-12-14",
+      "event": "iRobot及子公司在特拉华州申请Chapter 11破产保护",
+      "impact": "极高",
+      "sentiment": "极度负面",
+      "source": "SEC Filing / TipRanks"
+    },
+    {
+      "date": "2026-01-23",
+      "event": "iRobot完成法院监督的与Picea Robotics的重组交易",
+      "impact": "极高",
+      "sentiment": "中性偏正面（公司存续但股东清零）",
+      "source": "PRNewswire官方新闻稿"
+    },
+    {
+      "date": "2026-01-23",
+      "event": "Picea Robotics（深圳）获得iRobot 100%股权，公司私有化",
+      "impact": "极高",
+      "sentiment": "中性",
+      "source": "TechRadar / Trusted Reviews"
+    },
+    {
+      "date": "2026-02-13",
+      "event": "iRobot建立'iRobot Safe'美国数据治理机制，回应数据安全担忧",
+      "impact": "中",
+      "sentiment": "正面",
+      "source": "VacuumWars"
+    },
+    {
+      "date": "2026-02-13",
+      "event": "确认Roomba品牌将继续保留，3i基金退出",
+      "impact": "中",
+      "sentiment": "中性",
+      "source": "TechRadar"
+    }
+  ],
+  "key_financial_events": {
+    "chapter_11_filing": "2025-12-14",
+    "deleveraging": "$2.57亿资产负债表去杠杆",
+    "stock_delisted": "从NASDAQ退市，转至OTC交易(IRBTQ)",
+    "current_stock_price": "$0.054 (截至2026-02-13)",
+    "shareholder_wipeout": "原股东权益基本清零",
+    "picea_acquisition": "Picea Robotics获得100%股权"
+  },
+  "sentiment_summary": {
+    "overall": "极度负面",
+    "financial": "极度负面 — 破产重组，股东清零",
+    "operational": "中性偏正面 — 品牌保留，新资本注入",
+    "regulatory": "关注 — 中国资本收购引发数据安全审查",
+    "customer": "负面 — 产品质量和客服投诉增多"
+  },
+  "media_coverage_sources": [
+    "TechRadar", "Trusted Reviews", "The Robot Report", "PRNewswire",
+    "TipRanks", "Law360", "VacuumWars", "MSN", "Ad-Hoc-News"
+  ]
+}
