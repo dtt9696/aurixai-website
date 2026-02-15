@@ -1,0 +1,57 @@
+{
+  "company_info": {
+    "name": "iRobot Corporation",
+    "ticker": "IRBT",
+    "exchange": "NASDAQ",
+    "industry": "消费电子/智能家居机器人",
+    "founded": "1990年",
+    "headquarters": "美国马萨诸塞州贝德福德",
+    "ceo": "Gary Cohen（2024年5月起任CEO）",
+    "employees": "约450人（2025年，大幅裁员后）",
+    "main_products": "Roomba扫地机器人、Braava拖地机器人"
+  },
+  "q3_2025": {
+    "revenue": 145.8,
+    "revenue_yoy_change": -24.6,
+    "eps": -0.23,
+    "eps_estimate": -0.65,
+    "eps_beat": true,
+    "us_revenue_change": -33,
+    "emea_revenue_change": -13,
+    "japan_revenue_change": -9,
+    "gross_margin": null,
+    "note": "收入持续下滑，但EPS好于预期"
+  },
+  "annual_2024": {
+    "revenue": 546.997,
+    "cost_of_revenue": 426.722,
+    "gross_profit": 120.275,
+    "operating_expense": 269.744,
+    "operating_loss": -149.469,
+    "note": "全年亏损严重，毛利率仅22%"
+  },
+  "annual_2023": {
+    "revenue": 681.849,
+    "cost_of_revenue": 539.492,
+    "gross_profit": 142.357,
+    "note": "亚马逊收购失败后收入大幅下滑"
+  },
+  "stock_performance": {
+    "current_price": 0.22,
+    "price_date": "2025-12-22",
+    "ytd_change_pct": -86.2,
+    "fifty_two_week_high": null,
+    "fifty_two_week_low": null,
+    "market_cap_millions": null,
+    "note": "股价跌至不足1美元，面临退市风险"
+  },
+  "key_risks": {
+    "going_concern": "公司在Q3财报中表示\"没有额外资本来源\"，存在持续经营风险",
+    "revenue_decline": "收入连续多个季度大幅下滑，美国市场下降33%",
+    "competition": "面临中国品牌（如石头科技、科沃斯）的激烈竞争",
+    "amazon_deal_failure": "2024年1月亚马逊14亿美元收购交易因欧盟反垄断审查失败",
+    "restructuring": "大规模裁员，员工从约1400人减至约450人",
+    "delisting_risk": "股价低于1美元，面临NASDAQ退市风险",
+    "debt_burden": "重组费用和持续亏损加重财务负担"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "company": "iRobot Corporation",
+  "ticker": "IRBT / IRBTQ",
+  "analysis_date": "2026-02-15",
+  "news_period": "2025-11-15 至 2026-02-15",
+  "overall_sentiment": "极度负面",
+  "sentiment_score": -0.85,
+  "key_events": [
+    {
+      "date": "2025-11-06",
+      "title": "iRobot发布2025年第三季度财报",
+      "sentiment": "负面",
+      "score": -0.7,
+      "summary": "收入1.458亿美元，同比下降24.6%。美国市场下降33%，EMEA下降13%，日本下降9%。现金仅剩2480万美元，公司表示没有额外资本来源。GAAP净亏损每股0.62美元。",
+      "risk_level": "高"
+    },
+    {
+      "date": "2025-12-14",
+      "title": "iRobot申请Chapter 11破产保护",
+      "sentiment": "极度负面",
+      "score": -0.95,
+      "summary": "iRobot正式向法院申请Chapter 11破产保护，约1.9亿美元债务。同时宣布与深圳Picea Robotics达成重组支持协议（RSA），计划将所有资产出售给其主要合同制造商。",
+      "risk_level": "极高"
+    },
+    {
+      "date": "2025-12-22",
+      "title": "NASDAQ暂停iRobot股票交易",
+      "sentiment": "极度负面",
+      "score": -0.9,
+      "summary": "破产申请后，NASDAQ暂停了IRBT股票交易。股价跌至约0.05美元（OTC市场交易代码变更为IRBTQ）。现有股东面临投资全额损失。",
+      "risk_level": "极高"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "iRobot向SEC提交Form 25退市申请",
+      "sentiment": "负面",
+      "score": -0.8,
+      "summary": "公司正式向SEC提交退市文件，标志着iRobot作为上市公司历史的终结。",
+      "risk_level": "高"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "美国破产法院批准Picea收购交易",
+      "sentiment": "中性偏负面",
+      "score": -0.3,
+      "summary": "美国破产法院批准了iRobot向深圳Picea Robotics出售业务的计划。路透社报道交易获批。",
+      "risk_level": "中"
+    },
+    {
+      "date": "2026-01-23",
+      "title": "iRobot完成与Picea的法院监督交易，脱离破产",
+      "sentiment": "中性",
+      "score": -0.1,
+      "summary": "iRobot正式脱离Chapter 11破产程序，成为Picea Robotics的全资子公司。公司设立了'iRobot Safe'美国子公司，专门负责数据安全和隐私保护。Roomba品牌将继续运营。",
+      "risk_level": "中"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "iRobot退出公开市场",
+      "sentiment": "负面",
+      "score": -0.6,
+      "summary": "iRobot正式退出公开资本市场，完成从NASDAQ上市公司到私有化的转变。",
+      "risk_level": "高"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Roomba数据隐私担忧引发关注",
+      "sentiment": "负面",
+      "score": -0.5,
+      "summary": "媒体报道关注iRobot被中国公司收购后的用户数据隐私问题。尽管公司设立了美国数据安全子公司，但公众仍存疑虑。",
+      "risk_level": "中"
+    }
+  ],
+  "sentiment_distribution": {
+    "极度负面": 3,
+    "负面": 3,
+    "中性偏负面": 1,
+    "中性": 1,
+    "正面": 0
+  },
+  "risk_themes": {
+    "破产与重组风险": {
+      "level": "已实现",
+      "description": "公司已于2025年12月申请Chapter 11破产，2026年1月完成重组"
+    },
+    "股东权益损失": {
+      "level": "极高",
+      "description": "现有股东投资基本全额损失，股价从历史高点约150美元跌至0.05美元"
+    },
+    "收入持续下滑": {
+      "level": "高",
+      "description": "收入连续多个季度大幅下降，2025Q3同比下降24.6%"
+    },
+    "竞争压力": {
+      "level": "高",
+      "description": "面临中国品牌（石头科技、科沃斯、追觅等）的激烈价格竞争"
+    },
+    "数据隐私风险": {
+      "level": "中",
+      "description": "被中国公司收购后的用户数据安全问题引发公众关注"
+    },
+    "品牌价值风险": {
+      "level": "中",
+      "description": "破产和被收购可能影响Roomba品牌的消费者信任度"
+    }
+  },
+  "media_coverage_volume": "高",
+  "analyst_consensus": "极度看空 / 投资全损"
+}

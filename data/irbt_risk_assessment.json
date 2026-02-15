@@ -1,0 +1,67 @@
+{
+  "company": "iRobot Corporation",
+  "ticker": "IRBT",
+  "assessment_date": "2026-02-14",
+  "comprehensive_score": 87.5,
+  "risk_level": "极高风险",
+  "dimensions": {
+    "financial": {
+      "score": 88.5,
+      "weight": 0.3,
+      "level": "极高风险",
+      "sub_scores": {
+        "revenue_trend": 85,
+        "profitability": 90,
+        "liquidity": 98,
+        "gross_margin": 60,
+        "going_concern": 100
+      }
+    },
+    "market": {
+      "score": 92.8,
+      "weight": 0.25,
+      "level": "极高风险",
+      "sub_scores": {
+        "price_decline": 100,
+        "volatility": 95,
+        "delisting_risk": 100,
+        "volume_trend": 70
+      }
+    },
+    "sentiment": {
+      "score": 87.2,
+      "weight": 0.25,
+      "level": "极高风险",
+      "sub_scores": {
+        "overall_sentiment": 92.5,
+        "negative_density": 75.0,
+        "extreme_events": 95,
+        "media_attention": 85
+      }
+    },
+    "operational": {
+      "score": 79.5,
+      "weight": 0.2,
+      "level": "高风险",
+      "sub_scores": {
+        "management_change": 80,
+        "workforce_reduction": 95,
+        "supply_chain": 60,
+        "competition": 90,
+        "regulatory": 65
+      }
+    }
+  },
+  "key_findings": [
+    "公司已于2025年12月申请Chapter 11破产保护",
+    "2026年1月被深圳Picea Robotics收购，完成重组",
+    "股价从历史高点约150美元跌至不足0.05美元，投资者面临全额损失",
+    "收入连续多季度大幅下滑，2025Q3同比下降24.6%",
+    "现金储备严重不足（仅2480万美元），无额外资本来源",
+    "大规模裁员（从1400人降至450人），核心人才流失严重",
+    "面临中国品牌在扫地机器人市场的激烈竞争",
+    "亚马逊14亿美元收购交易因欧盟反垄断审查于2024年1月失败"
+  ],
+  "risk_outlook": "极度悲观",
+  "recommendation": "极高风险警告：iRobot已完成破产重组，原有股东权益归零。作为风险诊断案例，该公司展示了从行业先驱到破产被收购的完整风险演化路径。"
+}
