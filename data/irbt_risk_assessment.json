@@ -2,12 +2,12 @@
   "company": "iRobot Corporation",
   "ticker": "IRBT",
   "assessment_date": "2026-02-14",
-  "comprehensive_score": 87.5,
+  "comprehensive_score": 86.3,
   "risk_level": "极高风险",
   "dimensions": {
     "financial": {
       "score": 88.5,
-      "weight": 0.3,
+      "weight": 0.25,
       "level": "极高风险",
       "sub_scores": {
         "revenue_trend": 85,
@@ -19,7 +19,7 @@
     },
     "market": {
       "score": 92.8,
-      "weight": 0.25,
+      "weight": 0.2,
       "level": "极高风险",
       "sub_scores": {
         "price_decline": 100,
@@ -30,7 +30,7 @@
     },
     "sentiment": {
       "score": 87.2,
-      "weight": 0.25,
+      "weight": 0.2,
       "level": "极高风险",
       "sub_scores": {
         "overall_sentiment": 92.5,
@@ -41,7 +41,7 @@
     },
     "operational": {
       "score": 79.5,
-      "weight": 0.2,
+      "weight": 0.15,
       "level": "高风险",
       "sub_scores": {
         "management_change": 80,
@@ -49,6 +49,19 @@
         "supply_chain": 60,
         "competition": 90,
         "regulatory": 65
+      }
+    },
+    "supply_chain": {
+      "score": 81.2,
+      "weight": 0.2,
+      "level": "高风险",
+      "sub_scores": {
+        "single_source_dependency": 95,
+        "geopolitical_risk": 85,
+        "tariff_exposure": 80,
+        "inventory_management": 78,
+        "logistics_disruption": 72,
+        "quality_control": 60
       }
     }
   },
@@ -63,5 +76,57 @@
     "亚马逊14亿美元收购交易因欧盟反垄断审查于2024年1月失败"
   ],
   "risk_outlook": "极度悲观",
-  "recommendation": "极高风险警告：iRobot已完成破产重组，原有股东权益归零。作为风险诊断案例，该公司展示了从行业先驱到破产被收购的完整风险演化路径。"
+  "recommendation": "极高风险警告：iRobot已完成破产重组，原有股东权益归零。作为风险诊断案例，该公司展示了从行业先驱到破产被收购的完整风险演化路径。",
+  "competitor_benchmark": {
+    "comparison_metrics": [
+      {
+        "name": "石头科技 (Roborock)",
+        "revenue_usd_m": 1637,
+        "revenue_growth": 38.03,
+        "gross_margin": 51.5,
+        "net_margin": 18.2,
+        "market_share": 19.3,
+        "inventory_days": 45,
+        "supply_chain_model": "自研+外包结合"
+      },
+      {
+        "name": "科沃斯 (Ecovacs)",
+        "revenue_usd_m": 2267,
+        "revenue_growth": 6.71,
+        "gross_margin": 48.2,
+        "net_margin": 5.8,
+        "market_share": 13.6,
+        "inventory_days": 58,
+        "supply_chain_model": "自有工厂+外包"
+      },
+      {
+        "name": "追觅科技 (Dreame)",
+        "revenue_usd_m": 1096,
+        "revenue_growth": 55.0,
+        "gross_margin": 45.0,
+        "net_margin": 8.0,
+        "market_share": 11.3,
+        "inventory_days": 40,
+        "supply_chain_model": "自有工厂为主"
+      },
+      {
+        "name": "iRobot",
+        "revenue_usd_m": 682,
+        "revenue_growth": -19.8,
+        "gross_margin": 20.9,
+        "net_margin": -22.0,
+        "market_share": 8.5,
+        "inventory_days": 95,
+        "supply_chain_model": "完全外包（Fabless）"
+      }
+    ],
+    "irobot_vs_industry": {
+      "gross_margin_gap": -20.5,
+      "net_margin_gap": -24.5,
+      "growth_gap": -39.7,
+      "inventory_days_gap": 35,
+      "summary": "iRobot在所有关键指标上均大幅落后于行业平均水平和主要竞争对手"
+    },
+    "competitive_position": "极度劣势"
+  }
 }

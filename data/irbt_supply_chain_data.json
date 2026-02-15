@@ -1,0 +1,158 @@
+{
+  "company": "iRobot Corporation",
+  "supply_chain_analysis": {
+    "manufacturing_model": "轻资产外包模式（Fabless）",
+    "outsource_ratio": 70,
+    "primary_manufacturer": {
+      "name": "深圳Picea Robotics（品佳智能）",
+      "relationship": "主要合同制造商、担保贷款方、最终收购方",
+      "founded": "2016年",
+      "location": "中国深圳，越南设有工厂",
+      "products": "家用电器和零部件，3i品牌扫地机器人（累计销售超2000万台）",
+      "debt_owed": 100,
+      "debt_unit": "百万美元",
+      "initial_funding": "中国政府创业扶持项目"
+    },
+    "other_suppliers": [
+      {"name": "比亚迪 (BYD)", "debt_owed": 2.7, "category": "电池/电子元件"},
+      {"name": "美国海关与边境保护局", "debt_owed": 3.4, "category": "未缴关税"}
+    ],
+    "total_debt": 190,
+    "key_risks": {
+      "single_source_dependency": {
+        "level": "极高",
+        "description": "超过70%的生产外包给单一制造商Picea，形成严重的供应链集中风险",
+        "score": 95
+      },
+      "geopolitical_risk": {
+        "level": "高",
+        "description": "核心制造基地位于中国，面临中美贸易摩擦、关税壁垒和地缘政治不确定性",
+        "score": 85
+      },
+      "tariff_exposure": {
+        "level": "高",
+        "description": "产品从中国进口面临关税风险，已欠美国海关340万美元未缴关税",
+        "score": 80
+      },
+      "inventory_management": {
+        "level": "高",
+        "description": "2024年因制造转型产生2660万美元的过剩库存减记和不可取消采购承诺损失",
+        "score": 78
+      },
+      "logistics_disruption": {
+        "level": "中高",
+        "description": "2025Q3因生产延迟和不可预见的运输中断导致收入远低于预期",
+        "score": 72
+      },
+      "quality_control": {
+        "level": "中",
+        "description": "外包生产模式下质量控制依赖制造商，转型期间面临质量一致性挑战",
+        "score": 60
+      }
+    },
+    "inventory_metrics": {
+      "q3_2025_inventory": 140.9,
+      "q3_2024_inventory": 149.2,
+      "fy2024_inventory": 76.0,
+      "fy2024_cogs": 539.5,
+      "fy2024_dio_days": 51.4,
+      "fy2023_inventory": 149.2,
+      "fy2023_cogs": 539.5,
+      "manufacturing_transition_charge_2024": 26.6,
+      "unit": "百万美元"
+    },
+    "supply_chain_events_timeline": [
+      {"date": "2021-2022", "event": "全球供应链危机导致芯片短缺和运输延迟，iRobot产能受限"},
+      {"date": "2022-08", "event": "亚马逊宣布17亿美元收购iRobot，供应链关系暂时稳定"},
+      {"date": "2024-01", "event": "亚马逊放弃收购，iRobot启动大规模重组，裁员超50%"},
+      {"date": "2024", "event": "制造转型期间产生2660万美元过剩库存减记"},
+      {"date": "2025-Q3", "event": "生产延迟和运输中断导致收入远低于预期"},
+      {"date": "2025-12", "event": "申请破产，欠Picea 1亿美元、BYD 270万美元"},
+      {"date": "2026-01", "event": "Picea完成收购，供应链关系从客户-供应商转变为母子公司"}
+    ]
+  },
+  "competitor_comparison": {
+    "market_overview": {
+      "global_market_size_2024": 5575,
+      "global_market_size_2031_forecast": 9983,
+      "cagr": "8.7%",
+      "unit": "百万美元"
+    },
+    "market_share_2025_q1": {
+      "Roborock": 19.3,
+      "Ecovacs": 13.6,
+      "Dreame": 11.3,
+      "iRobot": 8.5,
+      "Others": 47.3
+    },
+    "competitors": [
+      {
+        "name": "石头科技 (Roborock)",
+        "ticker": "688169.SH",
+        "country": "中国",
+        "revenue_2024_rmb": 11945,
+        "revenue_2024_usd": 1637,
+        "revenue_growth_2024": 38.03,
+        "gross_margin_2024": 51.5,
+        "net_margin_2024": 18.2,
+        "market_share_2025q1": 19.3,
+        "employees": 4500,
+        "supply_chain_model": "自研+外包结合",
+        "key_strength": "技术创新快、性价比高、全球化布局",
+        "inventory_turnover_days": 45
+      },
+      {
+        "name": "科沃斯 (Ecovacs)",
+        "ticker": "603486.SH",
+        "country": "中国",
+        "revenue_2024_rmb": 16542,
+        "revenue_2024_usd": 2267,
+        "revenue_growth_2024": 6.71,
+        "gross_margin_2024": 48.2,
+        "net_margin_2024": 5.8,
+        "market_share_2025q1": 13.6,
+        "employees": 8000,
+        "supply_chain_model": "自有工厂+外包",
+        "key_strength": "品牌矩阵丰富、渠道覆盖广",
+        "inventory_turnover_days": 58
+      },
+      {
+        "name": "追觅科技 (Dreame)",
+        "ticker": "未上市",
+        "country": "中国",
+        "revenue_2024_rmb": 8000,
+        "revenue_2024_usd": 1096,
+        "revenue_growth_2024": 55.0,
+        "gross_margin_2024": 45.0,
+        "net_margin_2024": 8.0,
+        "market_share_2025q1": 11.3,
+        "employees": 5000,
+        "supply_chain_model": "自有工厂为主",
+        "key_strength": "高速增长、技术驱动、高速数字马达核心技术",
+        "inventory_turnover_days": 40
+      },
+      {
+        "name": "iRobot",
+        "ticker": "IRBT (已退市)",
+        "country": "美国",
+        "revenue_2024_rmb": null,
+        "revenue_2024_usd": 682,
+        "revenue_growth_2024": -19.8,
+        "gross_margin_2024": 20.9,
+        "net_margin_2024": -22.0,
+        "market_share_2025q1": 8.5,
+        "employees": 450,
+        "supply_chain_model": "完全外包（Fabless）",
+        "key_strength": "品牌知名度高、北美市场基础",
+        "inventory_turnover_days": 95
+      }
+    ],
+    "industry_average": {
+      "gross_margin": 41.4,
+      "net_margin": 2.5,
+      "revenue_growth": 19.9,
+      "inventory_turnover_days": 60,
+      "r_and_d_ratio": 8.5
+    }
+  }
+}
