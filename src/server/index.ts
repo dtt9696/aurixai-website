@@ -1,6 +1,7 @@
 import express from 'express';
 import { createExpressMiddleware } from '@trpc/server/adapters/express';
 import { appRouter } from './api/root';
+import { trackingService } from './services/trackingService';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -40,6 +41,10 @@ app.listen(PORT, () => {
   console.log(`📍 监听端口: ${PORT}`);
   console.log(`🔗 API 地址: http://localhost:${PORT}/trpc`);
   console.log(`💚 健康检查: http://localhost:${PORT}/health`);
+
+  // 启动事件追踪服务
+  trackingService.start();
+  console.log(`📊 事件追踪服务已启动`);
 });
 
 export default app;

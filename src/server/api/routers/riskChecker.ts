@@ -3,6 +3,7 @@ import { initTRPC } from '@trpc/server';
 import { db } from '../../../lib/database';
 import { riskAssessmentService } from '../../services/riskAssessment';
 import { emailService } from '../../services/emailService';
+import { trackingService } from '../../services/trackingService';
 import { RiskCheckResult } from '../../../types';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -54,6 +55,7 @@ export const riskCheckerRouter = t.router({
   /**
    * 运行风险检查
    * 对所有已订阅的公司进行风险评估
+   * 已集成埋点：自动上报风险检查、告警发送事件到仪表盘
    */
   runCheck: t.procedure
     .input(
@@ -73,6 +75,15 @@ export const riskCheckerRouter = t.router({
 
       console.log('🚀 开始执行风险检查任务...');
       console.log('=' .repeat(60));
+
+      // 📊 追踪 API 调用
+      trackingService.trackApiCall(
+        "riskChecker.runCheck",
+        "mutation",
+        0,
+        true,
+        { companyIds: input.companyIds, forceNotify: input.forceNotify }
+      );
 
       // 获取所有活跃订阅
       const subscriptions = db.getActiveSubscriptions();
@@ -124,6 +135,15 @@ export const riskCheckerRouter = t.router({
 
         results.push(result);
 
+        // 📊 追踪每次风险检查
+        trackingService.trackRiskCheck(
+          company.id,
+          company.name,
+          company.currentRiskScore,
+          newScore,
+          scoreChange
+        );
+
         // 检查是否需要发送通知
         const companySubscriptions = db.getSubscriptionsByCompany(companyId);
         const shouldNotify = input.forceNotify || 
@@ -144,6 +164,14 @@ export const riskCheckerRouter = t.router({
               success: notificationResult.success,
             });
 
+            // 📊 追踪告警发送
+            trackingService.trackAlert(
+              subscription.email,
+              company.name,
+              notificationResult.success,
+              scoreChange
+            );
+
             if (notificationResult.success) {
               console.log(`   ✅ 通知已发送: ${subscription.email}`);
             } else {
@@ -159,6 +187,14 @@ export const riskCheckerRouter = t.router({
 
       // 记录检查日志
       logCheckResults(results, notifications, duration);
+
+      // 📊 追踪定时任务完成
+      trackingService.trackCronJob(
+        "daily_risk_check",
+        duration,
+        results.length,
+        notifications.filter(n => n.success).length
+      );
 
       console.log('\n' + '='.repeat(60));
       console.log('✅ 风险检查任务完成');
@@ -185,14 +221,42 @@ export const riskCheckerRouter = t.router({
 
   /**
    * 获取公司风险历史
+   * 已集成埋点：自动上报 API 调用事件
    */
   getCompanyRiskHistory: t.procedure
     .input(z.object({ companyId: z.string() }))
     .query(({ input }) => {
+      const queryStart = Date.now();
+
+      // 📊 追踪 API 调用
+      trackingService.trackApiCall(
+        "riskChecker.getCompanyRiskHistory",
+        "query",
+        0,
+        true,
+        { companyId: input.companyId }
+      );
+
       const company = db.getCompany(input.companyId);
       if (!company) {
+        trackingService.trackApiCall(
+          "riskChecker.getCompanyRiskHistory",
+          "query",
+          Date.now() - queryStart,
+          false,
+          { companyId: input.companyId, error: "company_not_found" }
+        );
         throw new Error(`公司 ${input.companyId} 不存在`);
       }
+
+      trackingService.trackApiCall(
+        "riskChecker.getCompanyRiskHistory",
+        "query",
+        Date.now() - queryStart,
+        true,
+        { companyId: input.companyId, companyName: company.name }
+      );
+
       return company;
     }),
 });
